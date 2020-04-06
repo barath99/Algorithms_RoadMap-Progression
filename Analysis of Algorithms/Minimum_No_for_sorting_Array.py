@@ -62,7 +62,7 @@ def getMinimumOps(ar):
 	return ans 
 
 # Driver code 
-ar = [1, 2, 1, 4, 3] 
+ar = [5,4,3,2,1] 
 
 print(getMinimumOps(ar)) 
 
