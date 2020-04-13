@@ -3,3 +3,4 @@
 2. Binary Search O(log n)
 3. Jump Search O(√n)
 4. Interpolation Search O (log log n)
+5. Exponential Search O(log n)
