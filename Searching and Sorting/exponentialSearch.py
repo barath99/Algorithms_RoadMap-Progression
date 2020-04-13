@@ -4,9 +4,10 @@
 # A recurssive binary search function returns 
 # location of x in given array arr[l..r] is 
 # present, otherwise -1 
+import math 
 def binarySearch( arr, l, r, x): 
 	if r >= l: 
-		mid = l + ( r-l ) / 2
+		mid = math.floor(l + ( r-l ) / 2)
 		
 		# If the element is present at 
 		# the middle itself 
@@ -52,7 +53,7 @@ n = len(arr)
 x = 10
 result = exponentialSearch(arr, n, x) 
 if result == -1: 
-	print "Element not found in thye array"
+	print ("Element not found in thye array")
 else: 
-	print "Element is present at index %d" %(result) 
+	print ("Element is present at index",result) 
 
