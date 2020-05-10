@@ -29,3 +29,5 @@ def ternarySearch(arr, l, r, x):
 
 a=[1,2,3,4,5,10]	
 ch = ternarySearch(a,0,5,10)
+
+print(ch)
